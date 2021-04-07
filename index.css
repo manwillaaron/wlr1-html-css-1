@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+    /* background-color: cornflowerblue; */
 }
 
 li {
 background-color: black;
+font-size: 20px;
 }
 
 li:hover {
@@ -14,13 +16,14 @@ li:hover {
 .section-title{
 background-color: navajowhite;
 font-size: 30px;
-text-align: center;
-width: 50vw;
+/* text-align: center; */
+width: 100%;
 height: 200px;
-border: black 5px solid;
+border-bottom: black 5px solid;
+/* border-radius: 10px; */
 /* margin-left: 10px;
 margin-top: 20px; */
-margin: 20px 0px 10px 10px;
+/* margin: 20px 0px 10px 10px; */
 /* padding: 70px */
 }
 /*  */
@@ -36,4 +39,19 @@ margin: 20px 0px 10px 10px;
 
 .horizontal{
     display:inline
+}
+
+.header-siblings{
+    width: 300px;
+/* margin-left: 0; */
+    display: inline-block;
+}
+
+.nav-bar{
+    /* margin-left: calc(100% - 200px) */
+    margin-left: 1000px;
+}
+
+#header-htag{
+    margin-top: 90px;
 }
